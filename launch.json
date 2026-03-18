@@ -1,0 +1,11 @@
+{
+  "cache": {
+    "cachePriming": {
+      "urls": [
+        "/manually-added",
+        "/contact",
+        "/ssr-demo"
+      ]
+    }
+  }
+}
