@@ -1,7 +1,5 @@
 import Link from "next/link";
 
-export const cachePrimingEnabled = true;
-
 export async function generateStaticParams() {
   return [
     { slug: "article-1" },
@@ -18,10 +16,10 @@ const posts: Record<string, { title: string; date: string; author: string; body:
     body: "Next.js is a powerful React framework that gives you the best developer experience with all the features you need for production: hybrid static and server rendering, TypeScript support, smart bundling, route pre-fetching, and more.",
   },
   "article-2": {
-    title: "Understanding Cache Priming",
+    title: "Styling in Next.js",
     date: "February 14, 2026",
     author: "John Smith",
-    body: "Cache priming warms up your CDN before real users arrive. By pre-fetching key pages at deploy time, you eliminate cold-cache latency for the first visitors after a new deployment — making every page load feel instant.",
+    body: "You can use CSS Modules, Tailwind CSS, or your preferred approach. Next.js optimizes your styles and keeps your bundle size lean while shipping the best experience to every visitor.",
   },
   "article-3": {
     title: "Edge Functions Explained",
@@ -45,7 +43,7 @@ export default async function BlogPost({ params }: Props) {
         <div className="text-center">
           <h1 className="text-4xl font-bold mb-4 text-gray-900 dark:text-gray-100">404</h1>
           <p className="text-gray-600 dark:text-gray-400 mb-6">Post not found.</p>
-          <Link href="/blog" className="text-blue-600 hover:underline">← Back to Blog</Link>
+          <Link href="/" className="text-blue-600 hover:underline">← Home</Link>
         </div>
       </div>
     );

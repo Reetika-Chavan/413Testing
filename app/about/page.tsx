@@ -22,12 +22,6 @@ export default function About() {
               About
             </Link>
             <Link
-              href="/services"
-              className="px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors font-medium"
-            >
-              Services
-            </Link>
-            <Link
               href="/contact"
               className="px-4 py-2 text-gray-700 dark:text-gray-300 hover:text-purple-600 dark:hover:text-purple-400 transition-colors font-medium"
             >
