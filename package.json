@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test:store-attributes-api": "node scripts/test-store-attributes-api.mjs"
   },
   "dependencies": {
     "@contentstack/live-preview-utils": "^4.4.0",
