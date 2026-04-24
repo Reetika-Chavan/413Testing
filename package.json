@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "test:store-attributes-api": "node scripts/test-store-attributes-api.mjs"
+    "test:store-attributes-api": "node scripts/test-store-attributes-api.mjs",
+    "test:categories-delete": "node scripts/test-categories-delete.mjs"
   },
   "dependencies": {
     "@contentstack/live-preview-utils": "^4.4.0",
