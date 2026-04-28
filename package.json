@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "eslint",
     "test:store-attributes-api": "node scripts/test-store-attributes-api.mjs",
-    "test:categories-delete": "node scripts/test-categories-delete.mjs"
+    "test:categories-delete": "node scripts/test-categories-delete.mjs",
+    "classify:url": "node scripts/classify-curl.mjs"
   },
   "dependencies": {
     "@contentstack/live-preview-utils": "^4.4.0",
